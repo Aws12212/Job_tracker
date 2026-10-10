@@ -1,0 +1,4 @@
+ python -m venv venv
+   source venv/bin/activate        # Windows: venv\Scripts\activate
+   pip install fastapi uvicorn[standard] sqlalchemy alembic psycopg[binary] pydantic-settings passlib[bcrypt] python-jose
+   pip freeze > requirements.txt
